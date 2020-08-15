@@ -1,0 +1,35 @@
+nav {
+    background-color: rgb(238, 176, 42);
+    display: flex;
+    justify-content: space-evenly;
+}
+nav  a {
+    cursor: pointer;
+    margin: 2px 0 6px 0;
+    color: black;
+    display: block;
+}
+nav  a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+    margin-bottom: 4px;
+}
+nav  a.active {
+    border-bottom: 2px solid black;
+    margin-bottom: 4px;
+}
+.cart-icon {
+    position: relative;
+}
+.cart-item-count {
+    background-color: red;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 18px;
+    right: -5px;
+    color:white;
+    border-radius: 50%;
+    border: 0.8px solid rgb(255, 255, 255);
+    font-size: .9rem;
+}

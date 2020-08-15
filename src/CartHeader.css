@@ -1,0 +1,24 @@
+.cart-header {
+    width: 100%;
+    display: flex;
+    background-color:  white;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    padding: 5px;   
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: rgb(248, 143, 44);
+} 
+.header-info {
+    width: 50%;
+}
+.header-quantity {
+    width: 20%;
+}
+.header-single {
+    width: 15%;
+}
+.header-all {
+    width: 15%;
+    text-align: center;
+}
